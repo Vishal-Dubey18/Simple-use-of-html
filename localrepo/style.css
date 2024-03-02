@@ -1,0 +1,35 @@
+body { font-family: Arial, sans-serif; }
+h1 {
+    color: #4a86e8;
+  }
+
+  input[type="date"] {
+    width: 200px;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+  }
+
+  button[type="submit"] {
+    background-color: #4a86e8;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #3569d4;
+  }
